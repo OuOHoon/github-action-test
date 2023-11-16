@@ -47,3 +47,4 @@
 |-----------------|--------------------------------------------------------------------------|
 | 11회차(2023.11.16) | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
 | 12회차(2023.11.16) | [다음 큰 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12911)|
+| 13회차(2023.11.16) | [두 원 사이의 정수 쌍](https://school.programmers.co.kr/learn/courses/30/lessons/181187)|
