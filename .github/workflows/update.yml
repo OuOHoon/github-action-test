@@ -1,0 +1,20 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 9 * * 1,2,3,4,5" # 분 시 일 월 요일 -> 평일 9시 0분에 실행
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run update script
+        run: python update_readme.py # 업데이트 스크립트
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "begreat@kakao.com"
+          git config --global user.name "OuOHoon"
+          git add README.md
+          git commit -m "Update README" -a || echo "No changes to commit"
+          git push
