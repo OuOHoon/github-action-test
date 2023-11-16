@@ -46,3 +46,4 @@
 | 회차              | 문제                                                                       |
 |-----------------|--------------------------------------------------------------------------|
 | 11회차(2023.11.16) | [올바른 괄호](https://school.programmers.co.kr/learn/courses/30/lessons/12909)
+| 12회차(2023.11.16) | [다음 큰 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12911)|
